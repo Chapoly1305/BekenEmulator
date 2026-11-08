@@ -2,6 +2,7 @@
  * the chunked run loop with idle-skip, setup, run, and snapshots. Same class as
  * emulator.cpp, split for file size. */
 #include "emulator.h"
+#include "matter_bridge.h"
 #include "blecore.h"
 #include "wifimac.h"
 #include "wifipeer.h"
@@ -242,6 +243,7 @@ void BekenEmulator::flush_report_periph()
 void BekenEmulator::pacing()
 {
     pacing_inner();
+    if (matter_bridge_) matter_bridge_->tick();
     /* EMU_MAX_INSNS (the C++ twin of the differential runner's pywrap.py):
      * stop right after the pacing call that crosses the cap - every pacing
      * call, including the ones idle skipping makes, exactly where the Python
@@ -814,6 +816,8 @@ void BekenEmulator::setup()
     flash_page0_ = mem_.read_bytes(0, 0x800);
     flash_page0_word0_ = mem_.phys_read(0, 4);
 
+    if (getenv("BEKEN_MATTER_BRIDGE_PORT"))
+        matter_bridge_ = new MatterBridge(*this, atoi(getenv("BEKEN_MATTER_BRIDGE_PORT")));
     cpu_.context_save(power_on_ctx_);
     have_power_on_ctx_ = true;
 }

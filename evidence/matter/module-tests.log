@@ -1,0 +1,171 @@
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+[ok]   backends           94 checks
+  [PASS] test_ids_match_old_table
+  [PASS] test_registry
+  [PASS] test_bk7252_values
+  [PASS] test_bk7252n_is_not_bk7252
+  [PASS] test_name_matches_key
+  [PASS] test_emulator_identity
+  [PASS] test_default_chip
+  [PASS] test_ble_selection
+  [PASS] test_gpio_pins
+  [PASS] test_periph_pin_layout
+  [PASS] test_pwm_and_saradc_variants
+  [PASS] test_memory_map
+[WDT] watchdog expired; device reset #1
+[WDT] watchdog expired; device reset #1
+[WDT] watchdog expired; device reset #1
+  [PASS] test_memory_map_after_reset
+  [PASS] test_gdma_channel_layout
+  [PASS] test_ejpeg_blocks
+  [PASS] test_audio_block
+[WDT] watchdog expired; device reset #1
+[WDT] watchdog expired; device reset #1
+[WDT] watchdog expired; device reset #1
+[WDT] watchdog expired; device reset #1
+[WDT] watchdog expired; device reset #1
+[WDT] watchdog expired; device reset #1
+  [PASS] test_i2c_v2
+  [PASS] test_usb_plug_wake
+[SNAPSHOT] saved /tmp/pytests_chip_snap_200b336af0c2efa.snap at 0 instructions (4789342 bytes)
+  [PASS] test_snapshot_rejects_old
+All chip tests passed.
+[ok]   chips              147 checks
+  [PASS] test_period_follows_the_counter
+  [PASS] test_one_second_gives_a_thousand_ticks
+  [PASS] test_divider_and_32k_bank
+  [PASS] test_timers_are_independent
+  [PASS] test_disabled_timer_never_fires
+  [PASS] test_missed_periods_coalesce_into_one_tick
+  [PASS] test_acknowledged_status_drops_the_interrupt
+  [PASS] test_next_timer_due_bounds_idle_skipping
+  [PASS] test_other_chips_keep_the_fixed_tick
+All timer tests passed.
+[ok]   timers             23 checks
+  [PASS] test_pin_routing_and_queued_drive
+  [PASS] test_old_pwm_timer_status_uses_configured_channel
+  [PASS] test_interrupt_register_hooks_and_icu_line
+  [PASS] test_extended_bank_and_snapshot_payload
+  [PASS] test_legacy_extended_snapshot_migration
+  [PASS] test_extended_peripheral_decode_uses_logical_pins
+  [PASS] test_close_network_detaches_peer_callback
+
+All 7 GPIO/emulator integration tests passed.
+[ok]   gpio_emulator      57 checks
+  [PASS] test_crc_prefix
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+  [PASS] test_app_window_detection_and_mapping
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+  [PASS] test_full_image_precedence_and_false_positive_guard
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+  [PASS] test_flash_size
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+  [PASS] test_ble_core_selection
+SKIP real BK7252U smoke (set BK7252U_DUMP to enable)
+All image-loader self-tests passed.
+[ok]   image_loader       62 checks
+  [PASS] test_key_sequence_and_clock_gate
+Emulation finished. PC: 0x00000000, CPSR: 0x400001d3 (T-bit: 0)
+Time taken: 0.00 seconds.
+
+Done.
+  [PASS] test_expiry_reboots_and_restarts_firmware
+Emulation finished. PC: 0x00000000, CPSR: 0x400001d3 (T-bit: 0)
+Time taken: 0.00 seconds.
+
+Done.
+  [PASS] test_network_peer_survives_without_stale_device_sessions
+Watchdog register and reboot self-tests passed.
+[ok]   watchdog           22 checks
+== stock Tuya GPIO button integration ==
+Warning: 'bootloader' RBL container not found. Assuming raw payload and decrypting with the given key.
+Warning: 'app' RBL container not found. Assuming raw payload and decrypting with the given key.
+Emulation finished. PC: 0x00059b20, CPSR: 0x2000001f (T-bit: 0)
+Time taken: 0.57 seconds.
+
+Done.
+  [PASS] active-low P7 press toggles active-high relay P6
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Emulation finished. PC: 0x0006efa4, CPSR: 0x600000df (T-bit: 0)
+Time taken: 0.33 seconds.
+
+Done.
+  [PASS] MOES Q active-low P6 press toggles active-high relay P18
+
+GPIO button firmware regression passed.
+[ok]   gpio_button        9 checks
+
+414 checks across 7 module suites, 0 suite(s) failed.

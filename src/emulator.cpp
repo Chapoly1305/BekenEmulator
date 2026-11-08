@@ -1,4 +1,5 @@
 #include "emulator.h"
+#include "matter_bridge.h"
 #include "periph.h"
 #include "blecore.h"
 #include "wifimac.h"
@@ -128,7 +129,7 @@ static bool decode_flash_uid_b64(const Bytes &src, Bytes &out)
 BekenEmulator::BekenEmulator(const Bytes &raw_flash, const Bytes &bootloader, const Bytes &app,
                              const BuildOptions &opt, const ChipId &chip_in, const Bytes *physical_flash,
                              const Chip *chip_def)
-    : uart_sink(0), uart_sink_ctx(0), net_sink(0), net_sink_ctx(0), reset_count(0), has_run_error(false),
+    : matter_bridge_(0), uart_sink(0), uart_sink_ctx(0), net_sink(0), net_sink_ctx(0), reset_count(0), has_run_error(false),
       chip(0), cpu_(mem_), raw_flash_(raw_flash), bootloader_(bootloader), app_(app),
       flash_page0_word0_(0), opt_(opt),
       exception_vector_base_(0), tuyamcu_(0), blecore_(0), wifimac_(0), wifi_peer_(0), trng_state_(0),
@@ -282,6 +283,7 @@ BekenEmulator::BekenEmulator(const Bytes &raw_flash, const Bytes &bootloader, co
 
 BekenEmulator::~BekenEmulator()
 {
+    delete matter_bridge_;
     close_network();
     delete tuyamcu_;
     delete blecore_;
@@ -687,6 +689,7 @@ static void trace_pc_trampoline(void *ctx, u32 addr)
 
 void BekenEmulator::on_trace_pc_hit(u32 addr)
 {
+    if (matter_bridge_ && matter_bridge_->hook(addr)) return;
     if (pc_trace_seen_.count(addr))
         return;
     pc_trace_seen_.insert(addr);

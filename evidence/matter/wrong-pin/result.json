@@ -1,0 +1,7 @@
+{
+  "pase": false,
+  "full_commissioning": false,
+  "reads_completed": false,
+  "emulation_boundary": "SDK GATT callbacks; original BTP/PASE/IM code",
+  "factory": "synthetic test configuration"
+}

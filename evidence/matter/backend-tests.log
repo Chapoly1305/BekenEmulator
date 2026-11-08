@@ -1,0 +1,7 @@
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'bootloader' slice does not look like ARM code (encrypted image? try: -key TUYA).
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' slice does not look like ARM code (encrypted image? try: -key TUYA).
+[ok]   backends           94 checks
+
+94 checks across 1 module suites, 0 suite(s) failed.

@@ -1,0 +1,20 @@
+{
+  "kind": "synthetic test provisioning, NOT original factory data",
+  "elf_sha256": "5118823ef2e57d35e4c3128095d9fd0a6c457824057d08b289e595513b2a5a09",
+  "application_sha256": "043e252596d5df47e0a4348b92cf1b6d3e5c01de088b54156ed33dc48a00feee",
+  "flash_sha256": "5ca602cea315a27de88074a871a4e90952fbde331d2f8f045d5c65eef29ad504",
+  "factory_address": "0x1fe000",
+  "synthetic_vector_copy": "0x10000..0x1003f to 0..0x3f",
+  "passcode": 20202021,
+  "discriminator": 3840,
+  "iteration_count": 1000,
+  "salt_base64": "TWF0dGVyRW11bGF0b3IwMQ==",
+  "verifier_base64": "DzMegfXOOQxRgIvX4nCkNqjfmMVR4Vd6HnFoZE304h4Es5/bg7WE/D5oyLOL9KOp644ExhoItvh23hadxijKa3dKUN7EAr6AB9Kldm5jGnqfRP0+OKTcKl2PPfXkXeaE4A==",
+  "factory_schema_evidence": "getter 0x35838, partition 0xa at 0x1fd000 plus 0x1000; 0x90 byte header",
+  "limitations": [
+    "No original bootloader",
+    "No attestation certificates/private key",
+    "No original calibration or factory identity",
+    "No version/revision fields supplied"
+  ]
+}

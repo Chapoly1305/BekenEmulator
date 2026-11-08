@@ -186,7 +186,10 @@ struct SimState {
     SimState();
 };
 
+class MatterBridge;
 class BekenEmulator {
+friend class MatterBridge;
+    MatterBridge *matter_bridge_;
 public:
     /* Hardware base addresses (public like the Python class attributes). */
     static const u32 FLASH_BASE = 0x00000000, FLASH_SIZE = 2 * 1024 * 1024;

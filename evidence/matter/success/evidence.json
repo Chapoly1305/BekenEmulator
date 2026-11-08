@@ -1,0 +1,35 @@
+{
+  "pase": true,
+  "full_commissioning": false,
+  "attributes": {
+    "specification-version": {
+      "status": "UNSUPPORTED_ATTRIBUTE"
+    },
+    "software-version": {
+      "status": "SUCCESS",
+      "value": 2
+    },
+    "cluster-revision": {
+      "status": "SUCCESS",
+      "value": 1
+    }
+  },
+  "session_versions": [
+    {
+      "value": 17039360,
+      "hex": "0x01040000",
+      "source": "PBKDFParamResponse.SessionParameters.SpecificationVersion",
+      "session_parameters": {
+        "1": 500,
+        "2": 300,
+        "3": 4000,
+        "4": 18,
+        "5": 11,
+        "6": 17039360,
+        "7": 1
+      },
+      "message_hex": "01000000e061f7016dafe9f45c5c6f9800219c190000153001201afae670824005949b4ffc05da326c6e045ef77024f676ebc9fcbc3763e09ebf3002209d111456dc6297f4acae93714e441cdb58263cf7b3612767b8c21ded719feaf32503286035042501e8033002104d6174746572456d756c61746f7230311835052501f40125022c012503a00f24041224050b2606000004012407011818"
+    }
+  ],
+  "boundary": "SDK GATT bridge; synthetic factory credentials; unmodified application"
+}

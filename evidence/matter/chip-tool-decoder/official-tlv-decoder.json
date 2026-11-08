@@ -1,0 +1,15 @@
+{
+  "decoder": "/home/jchen73/renode-repro-26q3/matter/connectedhomeip/src/controller/python/matter/tlv/__init__.py",
+  "input": "chip-tool TraceDecoder received PBKDFParamResponse data",
+  "session_parameters": {
+    "1": 500,
+    "2": 300,
+    "3": 4000,
+    "4": 18,
+    "5": 11,
+    "6": 17039360,
+    "7": 1
+  },
+  "specification_version": 17039360,
+  "hex": "0x1040000"
+}

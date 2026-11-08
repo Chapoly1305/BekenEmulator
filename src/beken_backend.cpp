@@ -1,5 +1,6 @@
 #include "emulator_backend.h"
 #include "emulator.h"
+#include <exception>
 
 namespace {
 class BekenBackend : public EmulatorBackend {
@@ -15,7 +16,11 @@ public:
             if (err) *err = "Cannot map an empty flash image.";
             return false;
         }
-        machine_->setup();
+        try { machine_->setup(); }
+        catch (const std::exception &ex) {
+            if (err) *err = ex.what();
+            return false;
+        }
         return true;
     }
     void run(bool) { machine_->run(); }

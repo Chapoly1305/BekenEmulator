@@ -1,0 +1,13 @@
+test_duplicate_tags (test_evidence.EvidenceTests) ... ok
+test_no_response_not_unsupported (test_evidence.EvidenceTests) ... ok
+test_read_success (test_evidence.EvidenceTests) ... ok
+test_session (test_evidence.EvidenceTests) ... ok
+test_tlv_truncation (test_evidence.EvidenceTests) ... ok
+test_truncated (test_evidence.EvidenceTests) ... ok
+test_wrong_opcode (test_evidence.EvidenceTests) ... ok
+test_wrong_report_path (test_evidence.EvidenceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

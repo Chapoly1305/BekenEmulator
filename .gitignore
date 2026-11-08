@@ -29,3 +29,6 @@ sim_ui.exe
 docs/
 realtuya/
 realTuya.*
+
+# Local Matter bring-up attempts; selected reproducible evidence is retained separately.
+runs/

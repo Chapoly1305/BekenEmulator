@@ -1,3 +1,4 @@
+#include <cstdio>
 #include "esp8266_wifi_dma.h"
 #include "esp8266_wdev.h"
 #include "esp_state.h"

@@ -1,0 +1,3 @@
+# Preserve raw UART/terminal captures, including CR and terminal control bytes.
+evidence/matter/*.log -text -whitespace
+evidence/matter/**/*.log -text -whitespace

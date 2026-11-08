@@ -117,6 +117,7 @@ LIB_SRC := \
     src/emulator_mmio2.cpp \
     src/emulator_mmio3.cpp \
     src/emulator_build.cpp \
+    src/matter_bridge.cpp \
     src/emulator_backend.cpp \
     src/beken_backend.cpp \
     src/esp_backend.cpp \

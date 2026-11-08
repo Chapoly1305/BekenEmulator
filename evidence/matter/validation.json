@@ -1,0 +1,24 @@
+{
+  "upstream_commit": "e9ccbf0226d7f12b2df449a5362466deaf66d563",
+  "branch": "matter-commission-readout",
+  "source_sha256": {
+    "src/matter_bridge.cpp": "60995065b3745ea8a7dfae963f0c8297af3c30b80c450d41987ff2406832ae02",
+    "src/matter_bridge.h": "836c10676fb49ed6ac9fb661eccc6100dbbb8edfe4f8027c52200c0b7d6dab91",
+    "src/emulator.cpp": "93ef0e5046a9c97022bf0e75656d8776954761016145375b3be01b2fb9473d52",
+    "src/emulator.h": "a505472ae3681a3772225aebb8fad4842ede8c89f0de55cd7eea0e49057939e4",
+    "src/emulator_run.cpp": "375723afed8eea56fc9c97870f723c130392ad9ca4966907740152becfb5aa0b",
+    "src/beken_backend.cpp": "3ff728a42326ba5f69946b2a5566303252e086e0b1994c19f17f79692bc86c2b",
+    "tools/make_matter_fixture.py": "6780d7c78443c15b26cdf1e33837a7f4540f8db66da98abea583e136f8a09499",
+    "tools/matter_readout.py": "9983fd568e43714e96bc36a9059f08133788c75c860b533d3a2bda00651c5ad8",
+    "tools/matter_evidence.py": "32f0715169e81f7ba2d2663a87b55efbb740c186ea69493b9fc861602083882f"
+  },
+  "checks": {
+    "parser_tests": 8,
+    "module_checks": 414,
+    "backend_recheck": 94,
+    "correct_pin_pase": true,
+    "incorrect_pin_pase": false,
+    "strict_application_hash_gate": true
+  },
+  "scope": "PASE-only SDK-boundary readout; full commissioning not claimed"
+}

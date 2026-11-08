@@ -1,0 +1,6 @@
+{
+  "returncode": 1,
+  "rejected": true,
+  "mutation": "one application byte at 0x10040",
+  "output": "Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.\nWarning: 'app' RBL container not found. No key given, using raw slice without decryption.\nMatter SDK profile does not match application SHA256\n"
+}

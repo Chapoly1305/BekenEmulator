@@ -1,0 +1,206 @@
+[0;34m[1794163424.772] [1:1] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_tool_kvs[0m
+[0;34m[1794163424.774] [1:1] [DL] Wrote settings to /tmp/chip_tool_kvs[0m
+[1;31m[1794163424.774] [1:1] [DL] ChipLinuxStorage::Init: Attempt to re-initialize with KVS config file: /tmp/chip_kvs, IGNORING.[0m
+[0;34m[1794163424.775] [1:1] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_factory.ini[0m
+[0;34m[1794163424.777] [1:1] [DL] Wrote settings to /tmp/chip_factory.ini[0m
+[0;34m[1794163424.777] [1:1] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_config.ini[0m
+[0;34m[1794163424.778] [1:1] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;34m[1794163424.778] [1:1] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_counters.ini[0m
+[0;34m[1794163424.779] [1:1] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;34m[1794163424.781] [1:1] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1794163424.781] [1:1] [DL] NVS set: chip-config/unique-id = "497AC0FED9CF02F3"[0m
+[0;34m[1794163424.782] [1:1] [DL] Wrote settings to /tmp/chip_factory.ini[0m
+[0;32m[1794163424.782] [1:1] [DL] NVS set: chip-factory/vendor-id = 65521 (0xFFF1)[0m
+[0;34m[1794163424.784] [1:1] [DL] Wrote settings to /tmp/chip_factory.ini[0m
+[0;32m[1794163424.784] [1:1] [DL] NVS set: chip-factory/product-id = 32769 (0x8001)[0m
+[0;34m[1794163424.785] [1:1] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[1794163424.785] [1:1] [DL] NVS set: chip-counters/reboot-count = 1 (0x1)[0m
+[0;34m[1794163424.786] [1:1] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[1794163424.786] [1:1] [DL] NVS set: chip-counters/total-operational-hours = 0 (0x0)[0m
+[0;34m[1794163424.787] [1:1] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[1794163424.787] [1:1] [DL] NVS set: chip-counters/boot-reason = 0 (0x0)[0m
+[0;34m[1794163424.789] [1:1] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1794163424.789] [1:1] [DL] NVS set: chip-config/regulatory-location = 0 (0x0)[0m
+[0;34m[1794163424.790] [1:1] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1794163424.790] [1:1] [DL] NVS set: chip-config/location-capability = 2 (0x2)[0m
+[0;34m[1794163424.791] [1:1] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1794163424.791] [1:1] [DL] NVS set: chip-config/configuration-version = 1 (0x1)[0m
+[0;32m[1794163424.791] [1:1] [BLE] Using fake BLE transport on port 3514 (Renode test harness)[0m
+[0;32m[1794163424.791] [1:1] [DL] Got Ethernet interface: br-62fe72183098[0m
+[1;31m[1794163424.792] [1:1] [DL] Failed to get WiFi interface[0m
+[1;31m[1794163424.792] [1:1] [DL] Failed to reset WiFi statistic counts[0m
+[0;32m[1794163424.792] [1:1] [PAF] WiFiPAF: WiFiPAFLayer::Init()[0m
+[0;34m[1794163424.792] [1:1] [IN] UDP::Init bind&listen port=0[0m
+[0;34m[1794163424.792] [1:1] [IN] UDP::Init bound to port=44182[0m
+[0;34m[1794163424.792] [1:1] [IN] UDP::Init bind&listen port=0[0m
+[0;34m[1794163424.792] [1:1] [IN] UDP::Init bound to port=51219[0m
+[0;34m[1794163424.792] [1:1] [IN] BLEBase::Init - setting/overriding transport[0m
+[0;34m[1794163424.792] [1:1] [IN] WiFiPAFBase::Init - setting/overriding transport[0m
+[0;34m[1794163424.792] [1:1] [IN] TransportMgr initialized[0m
+[0;34m[1794163424.792] [1:1] [FP] Initializing FabricTable from persistent storage[0m
+[0;32m[1794163424.792] [1:1] [TS] Last Known Good Time: [unknown][0m
+[0;32m[1794163424.792] [1:1] [TS] Setting Last Known Good Time to firmware build time 2023-10-14T01:16:48[0m
+[0;32m[1794163424.792] [1:1] [DMG] Ember attribute persistence requires setting up[0m
+[0;32m[1794163424.792] [1:1] [ZCL] Using ZAP configuration...[0m
+[0;32m[1794163424.794] [1:1] [IN] CASE Server enabling CASE session setups[0m
+[0;34m[1794163424.794] [1:1] [IN] SecureSession[0x557c6e5d6ca0]: Allocated Type:2 LSID:24326[0m
+[0;34m[1794163424.794] [1:1] [SC] Allocated SecureSession (0x557c6e5d6ca0) - waiting for Sigma1 msg[0m
+[0;34m[1794163424.794] [1:1] [CTL] System State Initialized...[0m
+[0;32m[1794163424.794] [1:1] [CTL] Setting attestation nonce to random value[0m
+[0;32m[1794163424.794] [1:1] [CTL] Setting CSR nonce to random value[0m
+[0;34m[1794163424.795] [1:8] [DL] CHIP task running[0m
+[0J[0J[0;32m[1794163424.795] [1:1] [TOO] Command: pairing ble-thread 1 hex:0e080000000000010000000300000f35060004001fffe0020811111111222222220708fd61f77bd3df233e051000112233445566778899aabbccddeeff030e4f70656e54687265616444656d6f010212340410445f2b5ca6f2a93a55ce570a70efeecb0c0402a0fff8 20202022 3840 --pase-only true --bypass-attestation-verifier true --timeout 60 [0m
+[0J[0J[0;32m[1794163424.795] [1:8] [CTL] Setting attestation nonce to random value[0m
+[0J[0J[0;32m[1794163424.795] [1:8] [CTL] Setting CSR nonce to random value[0m
+[0J[0J[0;32m[1794163424.795] [1:8] [CTL] Couldn't get ExampleOpCredsCAKey from storage: src/controller/ExamplePersistentStorage.cpp:112: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0J[0J[0;32m[1794163424.795] [1:8] [CTL] Couldn't get ExampleOpCredsICAKey from storage: src/controller/ExamplePersistentStorage.cpp:112: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0J[0J[0;32m[1794163424.796] [1:8] [CTL] Generating RCAC[0m
+[0J[0J[0;32m[1794163424.796] [1:8] [CTL] Generating ICAC[0m
+[0J[0J[0;32m[1794163424.796] [1:8] [CTL] Generating NOC[0m
+[0J[0J[0;32m[1794163424.796] [1:8] [FP] Validating NOC chain[0m
+[0J[0J[0;32m[1794163424.797] [1:8] [FP] NOC chain validation successful[0m
+[0J[0J[0;32m[1794163424.797] [1:8] [FP] Added new fabric at index: 0x1[0m
+[0J[0J[0;32m[1794163424.797] [1:8] [FP] Assigned compressed fabric ID: 0xEC13AACE61C0B2B9, node ID: 0x000000000001B669[0m
+[0J[0J[0;32m[1794163424.797] [1:8] [TS] Last Known Good Time: 2023-10-14T01:16:48[0m
+[0J[0J[0;32m[1794163424.797] [1:8] [TS] New proposed Last Known Good Time: 2021-01-01T00:00:00[0m
+[0J[0J[0;32m[1794163424.797] [1:8] [TS] Retaining current Last Known Good Time[0m
+[0J[0J[0;32m[1794163424.797] [1:8] [FP] Metadata for Fabric 0x1 persisted to storage.[0m
+[0J[0J[0;32m[1794163424.797] [1:8] [TS] Committing Last Known Good Time to storage: 2023-10-14T01:16:48[0m
+[0J[0J[0;32m[1794163424.797] [1:8] [CTL] Joined the fabric at index 1. Fabric ID is 0x0000000000000001 (Compressed Fabric ID: EC13AACE61C0B2B9)[0m
+[0J[0J[0;32m[1794163424.797] [1:8] [DIS] Updating services using commissioning mode 0[0m
+[0J[0J[0;32m[1794163424.800] [1:8] [DIS] CHIP minimal mDNS started advertising.[0m
+[0J[0J[0;34m[1794163424.803] [1:8] [DL] Using WiFi MAC for hostname[0m
+[0J[0J[0;32m[1794163424.803] [1:8] [DIS] Advertise operational node EC13AACE61C0B2B9-000000000001B669[0m
+[0J[0J[0;34m[1794163424.803] [1:8] [DIS] Responding with _matter._tcp.local[0m
+[0J[0J[0;34m[1794163424.803] [1:8] [DIS] Responding with EC13AACE61C0B2B9-000000000001B669._matter._tcp.local[0m
+[0J[0J[0;34m[1794163424.803] [1:8] [DIS] Responding with EC13AACE61C0B2B9-000000000001B669._matter._tcp.local[0m
+[0J[0J[0;34m[1794163424.803] [1:8] [DIS] Responding with E6B49CAF71FD.local[0m
+[0J[0J[0;34m[1794163424.803] [1:8] [DIS] Responding with _IEC13AACE61C0B2B9._sub._matter._tcp.local[0m
+[0J[0J[0;32m[1794163424.803] [1:8] [DIS] CHIP minimal mDNS configured as 'Operational device'; instance name: EC13AACE61C0B2B9-000000000001B669.[0m
+[0J[0J[0;32m[1794163424.806] [1:8] [DIS] mDNS service published: _matter._tcp[0m
+[0J[0J[0;32m[1794163424.816] [1:8] [BLE] FakeBleTransport: connecting to fake BLE peer on port 3514[0m
+[0J[0J[0;32m[1794163424.816] [1:8] [BLE] FakeBleTransport: connected[0m
+[0J[0J[0;32m[1794163424.816] [1:8] [DIS] Closing all BLE connections[0m
+[0J[0J[0;34m[1794163424.816] [1:8] [BLE] initialized local rx window, size = 0[0m
+[0J[0J[0;34m[1794163424.816] [1:8] [IN] BleConnectionComplete: endPoint 0x557c63920a38[0m
+[0J[0J[0;34m[1794163424.816] [1:8] [BLE] QueueTx: Set data as new mSendQueue 0x7f1a14018ae6, type 0[0m
+[0J[0J[0;34m[1794163424.816] [1:8] [IN] SecureSession[0x7f1a14018170]: Allocated Type:1 LSID:24327[0m
+[0J[0J[0;34m[1794163424.816] [1:8] [SC] Assigned local session key ID 24327[0m
+[0J[0J[0;32m[1794163424.816] [1:8] [EM] <<< [E:5633i S:0 M:13766459] (U) Msg TX from 0F932AD3A89C0652 to 0:0000000000000000 [0000] [BLE] --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)[0m
+[0J[0J[0;34m[1794163424.816] [1:8] [IN] Message appended to BLE send queue[0m
+[0J[0J[0;32m[1794163424.816] [1:8] [SC] Sent PBKDF param request [II:500ms AI:300ms AT:4000ms)[0m
+[0J[0J[0;34m[1794163424.816] [1:8] [BLE] entered HandleGattSendConfirmationReceived[0m
+[0J[0J[0;34m[1794163424.817] [1:8] [BLE] entered HandleHandshakeConfirmationReceived[0m
+[0J[0J[0;34m[1794163424.817] [1:8] [BLE] exiting HandleHandshakeConfirmationReceived[0m
+[0J[0J[0;32m[1794163424.817] [1:8] [BLE] subscribe complete, ep = 0x557c63920a38[0m
+[0J[0J[0;34m[1794163424.817] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794163424.817] [1:8] [BLE] NO SEND: receive window almost closed, and no ack to send[0m
+[0J[0J[0;34m[1794163424.817] [1:8] [BLE] NO SEND: remote receive window closed[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] +++++++++++++++++++++ entered receive[0m
+[0J[0J[0;32m[1794163424.821] [1:8] [BLE] peripheral chose BTP version 4; central expected between 4 and 4[0m
+[0J[0J[0;32m[1794163424.821] [1:8] [BLE] using BTP fragment sizes rx 244 / tx 244.[0m
+[0J[0J[0;32m[1794163424.821] [1:8] [BLE] local and remote recv window size = 5[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] decremented local rx window, new size = 4[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] entered StartSendAckTimer[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] starting new SendAckTimer[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] entered Send[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] QueueTx: Set data as new mSendQueue 0x7f1a1401c970, type 0[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] reset local rx window on piggyback ack tx, size = 5[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] decremented remote rx window, new size = 4[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] exiting Send[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [IN] BLE EndPoint 0x557c63920a38 Connection Complete[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] entered HandleGattSendConfirmationReceived[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] entered HandleFragmentConfirmationReceived[0m
+[0J[0J[0;34m[1794163424.821] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] +++++++++++++++++++++ entered receive[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] prepared to rx post-handshake btp packet[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] BTP about to rx characteristic, state before:[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] BTP rx'd characteristic, state after:[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] decremented local rx window, new size = 4[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] got btp ack = 0[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] got ack for last outstanding fragment[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] about to adjust remote rx window; got ack num = 0, newest unacked sent seq num = 0,                 old window size = 4, max window size = 5[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] adjusted remote rx window, new size = 5[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] starting send-ack timer[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] entered StartSendAckTimer[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] starting new SendAckTimer[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [BLE] reassembled whole msg, len = 154[0m
+[0J[0J[0;32m[1794163424.833] [1:8] [EM] >>> [E:5633i S:0 M:32989664] (U) Msg RX from 0:0000000000000000 [0000] to 0F932AD3A89C0652 --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:154)[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [EM] Found matching exchange: 5633i, Delegate: 0x7f1a1401af80[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [SC] Received PBKDF param response[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [SC] Peer assigned session ID 24616[0m
+[0J[0J[0;34m[1794163424.833] [1:8] [SC] Found MRP parameters in the message[0m
+[0J[0J[0;32m[1794163424.834] [1:8] [EM] <<< [E:5633i S:0 M:13766460] (U) Msg TX from 0F932AD3A89C0652 to 0:0000000000000000 [0000] [BLE] --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:92)[0m
+[0J[0J[0;34m[1794163424.834] [1:8] [BLE] entered Send[0m
+[0J[0J[0;34m[1794163424.834] [1:8] [BLE] QueueTx: Set data as new mSendQueue 0x7f1a14014c20, type 0[0m
+[0J[0J[0;34m[1794163424.834] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794163424.834] [1:8] [BLE] reset local rx window on piggyback ack tx, size = 5[0m
+[0J[0J[0;34m[1794163424.834] [1:8] [BLE] decremented remote rx window, new size = 4[0m
+[0J[0J[0;34m[1794163424.834] [1:8] [BLE] exiting Send[0m
+[0J[0J[0;34m[1794163424.834] [1:8] [SC] Sent spake2p msg1[0m
+[0J[0J[0;34m[1794163424.834] [1:8] [BLE] entered HandleGattSendConfirmationReceived[0m
+[0J[0J[0;34m[1794163424.834] [1:8] [BLE] entered HandleFragmentConfirmationReceived[0m
+[0J[0J[0;34m[1794163424.834] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] +++++++++++++++++++++ entered receive[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] prepared to rx post-handshake btp packet[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] BTP about to rx characteristic, state before:[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] BTP rx'd characteristic, state after:[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] decremented local rx window, new size = 4[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] got btp ack = 1[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] got ack for last outstanding fragment[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] about to adjust remote rx window; got ack num = 1, newest unacked sent seq num = 1,                 old window size = 4, max window size = 5[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] adjusted remote rx window, new size = 5[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] starting send-ack timer[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] entered StartSendAckTimer[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] starting new SendAckTimer[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [BLE] reassembled whole msg, len = 127[0m
+[0J[0J[0;32m[1794163438.541] [1:8] [EM] >>> [E:5633i S:0 M:32989665] (U) Msg RX from 0:0000000000000000 [0000] to 0F932AD3A89C0652 --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:127)[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [EM] Found matching exchange: 5633i, Delegate: 0x7f1a1401af80[0m
+[0J[0J[0;34m[1794163438.541] [1:8] [SC] Received spake2p msg2[0m
+[0J[0J[1;31m[1794163438.542] [1:8] [SC] Failed to verify peer's MAC. This can happen when setup code is incorrect.[0m
+[0J[0J[0;34m[1794163438.542] [1:8] [SC] Sending status report. Protocol code 2, exchange 5633[0m
+[0J[0J[0;32m[1794163438.542] [1:8] [EM] <<< [E:5633i S:0 M:13766461] (U) Msg TX from 0F932AD3A89C0652 to 0:0000000000000000 [0000] [BLE] --- Type 0000:40 (SecureChannel:StatusReport) (B:30)[0m
+[0J[0J[0;34m[1794163438.542] [1:8] [BLE] entered Send[0m
+[0J[0J[0;34m[1794163438.542] [1:8] [BLE] QueueTx: Set data as new mSendQueue 0x7f1a14006fa0, type 0[0m
+[0J[0J[0;34m[1794163438.542] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794163438.542] [1:8] [BLE] reset local rx window on piggyback ack tx, size = 5[0m
+[0J[0J[0;34m[1794163438.542] [1:8] [BLE] decremented remote rx window, new size = 4[0m
+[0J[0J[0;34m[1794163438.542] [1:8] [BLE] exiting Send[0m
+[0J[0J[0;34m[1794163438.542] [1:8] [IN] SecureSession[0x7f1a14018170]: Released - Type:1 LSID:24327[0m
+[0J[0J[1;31m[1794163438.542] [1:8] [SC] Failed during PASE session setup: src/crypto/CHIPCryptoPALOpenSSL.cpp:1061: CHIP Error 0x000000AC: Internal error[0m
+[0J[0J[1;31m[1794163438.542] [1:8] [TOO] Secure Pairing Failed[0m
+[0J[0J[1;31m[1794163438.542] [1:8] [TOO] Run command failure: examples/chip-tool/commands/pairing/PairingCommand.cpp:500: CHIP Error 0x00000003: Incorrect state[0m
+[0J[0J[0;32m[1794163438.542] [1:8] [DIS] Closing all BLE connections[0m
+[0J[0J[0;34m[1794163438.542] [1:8] [IN] Clearing BLE pending packets.[0m
+[0J[0J[0;32m[1794163438.542] [1:8] [BLE] Auto-closing end point's BLE connection.[0m
+[0J[0J[0;32m[1794163438.542] [1:8] [TOO] Pairing Failure: src/crypto/CHIPCryptoPALOpenSSL.cpp:1061: CHIP Error 0x000000AC: Internal error[0m
+[0J[0J[1;31m[1794163438.542] [1:8] [TOO] Run command failure: src/crypto/CHIPCryptoPALOpenSSL.cpp:1061: CHIP Error 0x000000AC: Internal error[0m
+[0J[0J[0;34m[1794163438.542] [1:8] [BLE] No endpoint for received ack[0m
+[0J[0J[0;34m[1794163438.950] [1:1] [CTL] Shutting down the commissioner[0m
+[0J[0J[0;34m[1794163438.950] [1:1] [CTL] Shutting down the controller[0m
+[0J[0J[0;34m[1794163438.950] [1:1] [IN] Expiring all sessions for fabric 0x1!![0m
+[0J[0J[0;32m[1794163438.950] [1:1] [FP] Forgetting fabric 0x1[0m
+[0J[0J[0;32m[1794163438.950] [1:1] [TS] Pending Last Known Good Time: 2023-10-14T01:16:48[0m
+[0J[0J[0;32m[1794163438.950] [1:1] [TS] Previous Last Known Good Time: 2023-10-14T01:16:48[0m
+[0J[0J[0;32m[1794163438.950] [1:1] [TS] Reverted Last Known Good Time to previous value[0m
+[0J[0J[0;34m[1794163438.950] [1:1] [CTL] Shutting down the commissioner[0m
+[0J[0J[0;34m[1794163438.950] [1:1] [CTL] Shutting down the controller[0m
+[0J[0J[0;34m[1794163438.950] [1:1] [CTL] Shutting down the System State, this will teardown the CHIP Stack[0m
+[0J[0J[0;34m[1794163438.960] [1:1] [IN] SecureSession[0x557c6e5d6ca0]: Released - Type:2 LSID:24326[0m
+[0J[0J[0;34m[1794163438.960] [1:1] [DMG] All ReadHandler-s are clean, clear GlobalDirtySet[0m
+[0J[0J[0;32m[1794163438.960] [1:1] [IM] Shutting down data model provider 0x557c63907920[0m
+[0J[0J[0;32m[1794163438.960] [1:1] [DMG] CodegenDataModelProvider::Shutdown() complete[0m
+[0J[0J[0;32m[1794163438.960] [1:1] [FP] Shutting down FabricTable[0m
+[0J[0J[0;32m[1794163438.960] [1:1] [TS] Pending Last Known Good Time: 2023-10-14T01:16:48[0m
+[0J[0J[0;32m[1794163438.960] [1:1] [TS] Previous Last Known Good Time: 2023-10-14T01:16:48[0m
+[0J[0J[0;32m[1794163438.960] [1:1] [TS] Reverted Last Known Good Time to previous value[0m
+[0J[0J[0;34m[1794163438.967] [1:1] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0J[0J[0;32m[1794163438.967] [1:1] [DL] NVS set: chip-counters/total-operational-hours = 0 (0x0)[0m
+[0J[0J[0;32m[1794163438.967] [1:1] [DL] Inet Layer shutdown[0m
+[0J[0J[0;32m[1794163438.967] [1:1] [DL] BLE Layer shutdown[0m
+[0J[0J[0;32m[1794163438.967] [1:1] [DL] WiFi-PAF Layer shutdown[0m
+[0J[0J[0;32m[1794163438.967] [1:1] [DL] System Layer shutdown[0m
+[0J

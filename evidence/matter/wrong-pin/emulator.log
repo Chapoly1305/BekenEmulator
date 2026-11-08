@@ -1,0 +1,213 @@
+Warning: 'bootloader' RBL container not found. No key given, using raw slice without decryption.
+Warning: 'app' RBL container not found. No key given, using raw slice without decryption.
+[MATTER_BRIDGE] SDK boundary, pinned 5118823e; listening 127.0.0.1:3514
+bk_misc_init_start_type 0 0
+prvHeapInit-start addr:0x40ce48, size:143800
+[Flash]id:0x0
+don't config this flash, choose default config
+[Flash]init over
+sctrl_sta_ps_init
+SDK Rev: 3.0.70 37ee08ba5
+[THD]app:[tcb]40e128 [stack]40d120-40e120:4096:5
+[THD]extended_app:[tcb]40e998 [stack]40e190-40e990:2048:4
+[DEVICE_REGISTRY] Initializing 0 devices from config
+[THD]event_task:[tcb]40fb50 [stack]40eb48-40fb48:4096:4
+
+=====load custom app(lib)==========
+
+Enter quec_app_main
+[THD]idle:[tcb]40ffc0 [stack]40fbb8-40ffb8:1024:0
+[THD]timer_thd:[tcb]410d48 [stack]410140-410d40:3072:2
+OSK Rev: F-3.0.44 37ee08ba5
+cset:0 0 0 0
+ENV start address is 0x001F4000, size is 36864 bytes.
+No TLV header found in flash
+[FUNC]rwnxl_init
+chip id=7231c device id=20521023
+IP Rev: W4-3.0.70-P0
+txdesc flush
+[FUNC]intc_init
+[FUNC]calibration_main
+get rfcali_mode:1
+device_id=0x20521023
+calibration_main over
+NO TXPWR_TAB_TAB found in flash
+Load default txpwr for b:0x10c5d8
+Load default txpwr for g:0x10c60e
+fit n20 table with dist:4
+Load default txpwr for n40:0x10c61c
+Load default txpwr for ble:0x10c5e6
+uncali adc value:[00 00 00]
+NO TXID found in flash, use def temp:330
+temp in flash is:330
+[THD]temp_detct:[tcb]4113b8 [stack]410fb0-4113b0:1024:3
+NO TXID found in flash, use lpf i&q:253, 253
+NO TXID found in flash, use def xtal:38
+xtal in flash is:38
+xtal_cali:38
+--init_xtal = 38
+[FUNC]ps_init
+int watchdog enabled, period=10000
+task watchdog enabled, period=60000
+[FUNC]func_init_extended OVER!!!
+
+start_type:0
+[THD]kmsgbk:[tcb]412480 [stack]411478-412478:4096:6
+[THD]init_thread:[tcb]412cc0 [stack]4124e8-412cb8:2000:5
+Initializing TCP/IP stack
+[THD]core_thread:[tcb]413be0 [stack]4133d8-413bd8:2048:7
+[THD]tcp/ip:[tcb]414e00 [stack]413df8-414df8:4096:7
+[THD]wpas_thread:[tcb]4162c8 [stack]4152c0-4162c0:4096:4
+bk_wlan_app_init finished
+[THD]rf_arbitrate:[tcb]416d20 [stack]416518-416d18:2048:8
+rf_thread_init ok
+[THD]ble:[tcb]417638 [stack]416e30-417630:2048:5
+ble mac:c0-00-00-00-00-00
+rwip_heap_env addr:0x4176a0 size:748
+rwip_heap_db addr:0x417998 size:3084
+rwip_heap_msg addr:0x4185b0 size:9732
+rwip_heap_non_ret addr:0x41abc0 size:668
+xvr_reg_init
+h4tl_init-1 ok
+hci_init ok
+rwble_hl_init ok
+BLE Rev: B5-3.0.70-P0
+rwble_init ok
+rwip_driver_init ok
+enter normal mode
+EM_BLE_END:0x1644
+[gapm_cmp_evt_handler] conidx:0,operation:0x1,status:0x0
+cmd->addr.addr[5] :c0
+[gapm_cmp_evt_handler] conidx:0,operation:0x3,status:0x0
+gapm_cmp_evt:GAPM_SET_DEV_CONFIG
+gapm_cmp_evt:wait GAPM_GEN_RAND_NB
+[gapm_cmp_evt_handler] conidx:0,operation:0x1a,status:0x0
+gapm_cmp_evt:GAPM_GEN_RAND_NB
+[gapm_cmp_evt_handler] conidx:0,operation:0x1a,status:0x0
+gapm_cmp_evt:GAPM_GEN_RAND_NB
+[gapm_cmp_evt_handler] conidx:0,operation:0x28,status:0x0
+gapm_cmp_evt:BLE_STACK_OK
+[THD]cli:[tcb]41c180 [stack]41b978-41c178:2048:3
+[THD]matter_task:[tcb]41d190 [stack]41c1e8-41d188:4000:1
+going Chip
+read fast_count error write fast_count=1
+[THD]CHIP:[tcb]420330 [stack]41e328-420328:8192:2
+ble create new db
+ble_env->start_hdl = 0x10
+[gapm_profile_added_ind_handler] prf_task_id:0x78,prf_task_nb:9,start_hdl:16,state:0x1
+conidx:0x0,role:0x0,dest_id:0x3,src_id:0x7,param->status:0x0
+[gapm_cmp_evt_handler] conidx:0,operation:0x1b,status:0x0
+[QL_MT][0001.052] Attribute changed: endpoint=1, cluster=0x0004, attr=0x0000, type=24, size=1
+[QL_MT][0001.054] Attribute changed: endpoint=1, cluster=0x0004, attr=0xfffc, type=27, size=4
+[EVENT] Dispatching: type=20, data=0, ptr=0x4207c0
+[CFG] No endpoints in config, skip dynamic registration[APP_INIT] init dynamic endpoints rc=0
+[APP_INIT] not commissioned yet[APP_INIT] sync devices from bindings rc=0
+[EVENT] Dispatching: type=16, data=0, ptr=0x4207d0
+[MATTER] device is unprovisioned (not yet commissioned)
+prodtest_listen_start
+[sa_sta]MM_RESET_REQ
+txdesc flush
+[sa_sta]ME_CONFIG_REQ
+[sa_sta]ME_CHAN_CONFIG_REQ
+[sa_sta]MM_START_REQ
+sizeof(wpa_supplicant)=1016
+mm_add_if_req_handler:0
+hapd_intf_add_vif,type:2, s:0, id:0
+wpa_dInit
+hapd_intf_del_key: mac ff:ff:ff:ff:ff:ff, hw key idx 65
+hapd_intf_del_key: mac ff:ff:ff:ff:ff:ff, hw key idx 65
+hapd_intf_del_key: mac ff:ff:ff:ff:ff:ff, hw key idx 65
+hapd_intf_del_key: mac ff:ff:ff:ff:ff:ff, hw key idx 65
+hapd_intf_del_key: mac ff:ff:ff:ff:ff:ff, hw key idx 65
+hapd_intf_del_key: mac ff:ff:ff:ff:ff:ff, hw key idx 65
+wpa S: DISCONNECTED -> INACTIVE
+wpa S: INACTIVE -> DISCONNECTED
+enter low level!
+mac c8:47:8c:42:88:48
+leave low level!
+[net]addvif_idx:0
+wpa_supplicant_req_scan
+Setting scan request: 0.000000 sec
+wpa_supplicant_scan
+wpa S: DISCONNECTED -> SCANNING
+wpa_supplicant_scan 1004
+bk_wlan_start_scan 
+wpa_drv_scan
+wpa_send_scan_req
+no ht in scan
+scan_start_req_handler
+wpa_driver_scan_start_cb
+wpa rx E SCAN_STARTED
+cal_bias!
+cal dpll!
+temperature_type=3
+temp_code:162 - adc_code:82 - adc_trend:[13]:330->[23]:240
+init_xtal:38, delta:2, last_xtal:38
+cal_bias!
+cal dpll!
+temp_code:162 - adc_code:82 - adc_trend:[23]:240->[33]:150
+init_xtal:38, delta:99, last_xtal:40
+cal_bias!
+cal dpll!
+temp_code:162 - adc_code:82 - adc_trend:[33]:150->[38]:105
+init_xtal:38, delta:117, last_xtal:127
+[MATTER_BRIDGE] firmware callback registered
+[MATTER_BRIDGE] SDK event 0 (0 bytes) at 30002695
+Device Configuration:
+	Serial Number: EMU0001
+	Vendor ID: 65521 (0xfff1)
+	Product ID: 32768 (0x8000)
+	Setup Passcode: 20202021
+	Setup Discriminator: 3840 (0x0f00)
+chip[SVR] SetupQRCode: [MT:Y.K9042C00KA0648G00]
+chip[SVR] Copy/paste the below URL in a browser to see the QR Code:
+chip[SVR] https://project-chip.github.io/connectedhomeip/qrcode.html?data=MT%3AY.K9042C00KA0648G00
+chip[SVR] Manual pairing code: [34970112332]
+[MATTER_BRIDGE] SDK callback returned
+[MATTER_BRIDGE] SDK event 0 (0 bytes) at 30038155
+[MATTER_BRIDGE] SDK callback returned
+[gapm_cmp_evt_handler] conidx:0,operation:0xa0,status:0x0
+[gapm_cmp_evt_handler] conidx:0,operation:0xa9,status:0x0
+[BLE_ADV] EM 0x00910000 +0x05d4 (15 bytes): 02 01 06 0b 16 f6 ff 00 00 0f f1 ff 00 80 00
+[BLE_ADV]   Flags                      06                                      .
+[BLE_ADV]   Service Data               f6 ff 00 00 0f f1 ff 00 80 00           ..........  uuid=0xFFF6
+[gapm_cmp_evt_handler] conidx:0,operation:0xaa,status:0x0
+[gapm_cmp_evt_handler] conidx:0,operation:0xa4,status:0x0
+fast_count 0
+wpa_driver_scan_timeout: scan state 2, scanu state 1
+wpa rx E SCAN_RESULTS
+Scan completed in 5.000000 seconds
+get_scan_rst_null
+wpa S: SCANNING -> DISCONNECTED
+prodtest_listen_start FAIL 3
+--------------->unprovisioned_event_handler:716 prov:(nil) prov->mode:(null)
+[MATTER_BRIDGE] host attached
+[MATTER_BRIDGE] SDK event 6 (0 bytes) at 32668830
+[MATTER_BRIDGE] SDK callback returned
+[MATTER_BRIDGE] SDK event 1 (9 bytes) at 32673211
+[MATTER_BRIDGE] SDK callback returned
+[MATTER_BRIDGE] SDK event 1 (0 bytes) at 32676631
+[MATTER_BRIDGE] C2 6 bytes: 656c04f40005
+on_device_event: type=32774
+[EVENT] Dispatching: type=15, data=32774, ptr=0x40d540
+[MATTER_EVENT] BLE connection established
+unknow conhdl[MATTER_BRIDGE] SDK callback returned
+[MATTER_BRIDGE] SDK event 10 (0 bytes) at 32687233
+[MATTER_BRIDGE] SDK callback returned
+[MATTER_BRIDGE] SDK event 1 (103 bytes) at 32690614
+[MATTER_BRIDGE] C2 159 bytes: 0d00019a0001000000e061f70152069ca8d32a930f00210116000015300120e1aacd81b82306ab51525a444a2c78fce4d6caff22b70c8d8c53aa92adfaffa83002209d111456dc6297f4acae93714e441cdb58263cf7b3612767b8c21ded719feaf32503286035042501e8033002104d6174746572456d756c61746f7230311835052501f40125022c012503a00f24041224050b2606000004012407011818
+[MATTER_BRIDGE] SDK callback returned
+[MATTER_BRIDGE] SDK event 10 (0 bytes) at 32753138
+[MATTER_BRIDGE] SDK callback returned
+[MATTER_BRIDGE] SDK event 1 (97 bytes) at 32757527
+[MATTER_BRIDGE] SDK callback returned
+[MATTER_BRIDGE] C2 132 bytes: 0d01027f0001000000e161f70152069ca8d32a930f002301160000153001410467e6ba4560aba86baa32b20be359b809848100608c18e71047b8642ac507879d52d151b808ee3b62c6c1aa2948a0eedfd574a371d92d17a2f7ff8f6156cc5885300220d9d46beda6babbeef41b092dbb71f387fe0ddbf2104f675dfdde60d0aa9f2ec318
+[MATTER_BRIDGE] SDK event 10 (0 bytes) at 101291191
+[MATTER_BRIDGE] SDK callback returned
+[MATTER_BRIDGE] SDK event 1 (35 bytes) at 101295572
+[MATTER_BRIDGE] SDK callback returned
+[MATTER_BRIDGE] SDK event 1 (0 bytes) at 101370522
+[MATTER_BRIDGE] SDK callback returned
+[MATTER_BRIDGE] SDK event 7 (0 bytes) at 101376336
+[MATTER_BRIDGE] SDK callback returned
+actv[0] is not created

@@ -1,0 +1,8 @@
+{
+  "flash_sha256": "5ca602cea315a27de88074a871a4e90952fbde331d2f8f045d5c65eef29ad504",
+  "emulator_sha256": "ef9c4de93304b286d1671ddb1bf4d03f5c9560a6e83c1eddcfff7e12319fabc7",
+  "chip_tool_sha256": "a8ed7c5abca84d18f5167076f3d392e2b4ede147f2b331bd50289494df6e3533",
+  "host_image": "local/renode-host-tools:26q3",
+  "client_passcode": 20202021,
+  "port": 3515
+}

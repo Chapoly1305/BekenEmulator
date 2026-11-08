@@ -1,0 +1,750 @@
+[0;34m[1794170099.085] [1:1] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_tool_kvs[0m
+[0;34m[1794170099.093] [1:1] [DL] Wrote settings to /tmp/chip_tool_kvs[0m
+[1;31m[1794170099.093] [1:1] [DL] ChipLinuxStorage::Init: Attempt to re-initialize with KVS config file: /tmp/chip_kvs, IGNORING.[0m
+[0;34m[1794170099.094] [1:1] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_factory.ini[0m
+[0;34m[1794170099.096] [1:1] [DL] Wrote settings to /tmp/chip_factory.ini[0m
+[0;34m[1794170099.096] [1:1] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_config.ini[0m
+[0;34m[1794170099.097] [1:1] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;34m[1794170099.097] [1:1] [DL] ChipLinuxStorage::Init: Using KVS config file: /tmp/chip_counters.ini[0m
+[0;34m[1794170099.099] [1:1] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;34m[1794170099.101] [1:1] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1794170099.101] [1:1] [DL] NVS set: chip-config/unique-id = "9A857CD0C5A20B70"[0m
+[0;34m[1794170099.102] [1:1] [DL] Wrote settings to /tmp/chip_factory.ini[0m
+[0;32m[1794170099.102] [1:1] [DL] NVS set: chip-factory/vendor-id = 65521 (0xFFF1)[0m
+[0;34m[1794170099.103] [1:1] [DL] Wrote settings to /tmp/chip_factory.ini[0m
+[0;32m[1794170099.103] [1:1] [DL] NVS set: chip-factory/product-id = 32769 (0x8001)[0m
+[0;34m[1794170099.105] [1:1] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[1794170099.105] [1:1] [DL] NVS set: chip-counters/reboot-count = 1 (0x1)[0m
+[0;34m[1794170099.106] [1:1] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[1794170099.106] [1:1] [DL] NVS set: chip-counters/total-operational-hours = 0 (0x0)[0m
+[0;34m[1794170099.108] [1:1] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0;32m[1794170099.108] [1:1] [DL] NVS set: chip-counters/boot-reason = 0 (0x0)[0m
+[0;34m[1794170099.109] [1:1] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1794170099.109] [1:1] [DL] NVS set: chip-config/regulatory-location = 0 (0x0)[0m
+[0;34m[1794170099.111] [1:1] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1794170099.111] [1:1] [DL] NVS set: chip-config/location-capability = 2 (0x2)[0m
+[0;34m[1794170099.112] [1:1] [DL] Wrote settings to /tmp/chip_config.ini[0m
+[0;32m[1794170099.112] [1:1] [DL] NVS set: chip-config/configuration-version = 1 (0x1)[0m
+[0;32m[1794170099.112] [1:1] [BLE] Using fake BLE transport on port 3519 (Renode test harness)[0m
+[0;32m[1794170099.113] [1:1] [DL] Got Ethernet interface: br-62fe72183098[0m
+[1;31m[1794170099.113] [1:1] [DL] Failed to get WiFi interface[0m
+[1;31m[1794170099.113] [1:1] [DL] Failed to reset WiFi statistic counts[0m
+[0;32m[1794170099.113] [1:1] [PAF] WiFiPAF: WiFiPAFLayer::Init()[0m
+[0;34m[1794170099.113] [1:1] [IN] UDP::Init bind&listen port=0[0m
+[0;34m[1794170099.113] [1:1] [IN] UDP::Init bound to port=43828[0m
+[0;34m[1794170099.113] [1:1] [IN] UDP::Init bind&listen port=0[0m
+[0;34m[1794170099.113] [1:1] [IN] UDP::Init bound to port=38507[0m
+[0;34m[1794170099.113] [1:1] [IN] BLEBase::Init - setting/overriding transport[0m
+[0;34m[1794170099.113] [1:1] [IN] WiFiPAFBase::Init - setting/overriding transport[0m
+[0;34m[1794170099.113] [1:1] [IN] TransportMgr initialized[0m
+[0;34m[1794170099.113] [1:1] [FP] Initializing FabricTable from persistent storage[0m
+[0;32m[1794170099.113] [1:1] [TS] Last Known Good Time: [unknown][0m
+[0;32m[1794170099.113] [1:1] [TS] Setting Last Known Good Time to firmware build time 2023-10-14T01:16:48[0m
+[0;32m[1794170099.114] [1:1] [DMG] Ember attribute persistence requires setting up[0m
+[0;32m[1794170099.114] [1:1] [ZCL] Using ZAP configuration...[0m
+[0;32m[1794170099.116] [1:1] [IN] CASE Server enabling CASE session setups[0m
+[0;34m[1794170099.116] [1:1] [IN] SecureSession[0x563543c47ce0]: Allocated Type:2 LSID:16643[0m
+[0;34m[1794170099.116] [1:1] [SC] Allocated SecureSession (0x563543c47ce0) - waiting for Sigma1 msg[0m
+[0;34m[1794170099.116] [1:1] [CTL] System State Initialized...[0m
+[0;32m[1794170099.117] [1:1] [CTL] Setting attestation nonce to random value[0m
+[0;32m[1794170099.117] [1:1] [CTL] Setting CSR nonce to random value[0m
+[0;34m[1794170099.117] [1:8] [DL] CHIP task running[0m
+[0J[0J[0;32m[1794170099.117] [1:1] [TOO] Command: pairing ble-thread 1 hex:0e080000000000010000000300000f35060004001fffe0020811111111222222220708fd61f77bd3df233e051000112233445566778899aabbccddeeff030e4f70656e54687265616444656d6f010212340410445f2b5ca6f2a93a55ce570a70efeecb0c0402a0fff8 20202021 3840 --pase-only true --bypass-attestation-verifier true --trace_decode 1 --timeout 60 [0m
+[0J[0J[0;32m[1794170099.117] [1:8] [CTL] Setting attestation nonce to random value[0m
+[0J[0J[0;32m[1794170099.117] [1:8] [CTL] Setting CSR nonce to random value[0m
+[0J[0J[0;32m[1794170099.117] [1:8] [CTL] Couldn't get ExampleOpCredsCAKey from storage: src/controller/ExamplePersistentStorage.cpp:112: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0J[0J[0;32m[1794170099.118] [1:8] [CTL] Couldn't get ExampleOpCredsICAKey from storage: src/controller/ExamplePersistentStorage.cpp:112: CHIP Error 0x000000A0: Value not found in the persisted storage[0m
+[0J[0J[0;32m[1794170099.118] [1:8] [CTL] Generating RCAC[0m
+[0J[0J[0;32m[1794170099.118] [1:8] [CTL] Generating ICAC[0m
+[0J[0J[0;32m[1794170099.118] [1:8] [CTL] Generating NOC[0m
+[0J[0J[0;32m[1794170099.118] [1:8] [FP] Validating NOC chain[0m
+[0J[0J[0;32m[1794170099.119] [1:8] [FP] NOC chain validation successful[0m
+[0J[0J[0;32m[1794170099.119] [1:8] [FP] Added new fabric at index: 0x1[0m
+[0J[0J[0;32m[1794170099.119] [1:8] [FP] Assigned compressed fabric ID: 0xC16A264CAAE0FC42, node ID: 0x000000000001B669[0m
+[0J[0J[0;32m[1794170099.119] [1:8] [TS] Last Known Good Time: 2023-10-14T01:16:48[0m
+[0J[0J[0;32m[1794170099.119] [1:8] [TS] New proposed Last Known Good Time: 2021-01-01T00:00:00[0m
+[0J[0J[0;32m[1794170099.119] [1:8] [TS] Retaining current Last Known Good Time[0m
+[0J[0J[0;32m[1794170099.119] [1:8] [FP] Metadata for Fabric 0x1 persisted to storage.[0m
+[0J[0J[0;32m[1794170099.120] [1:8] [TS] Committing Last Known Good Time to storage: 2023-10-14T01:16:48[0m
+[0J[0J[0;32m[1794170099.120] [1:8] [CTL] Joined the fabric at index 1. Fabric ID is 0x0000000000000001 (Compressed Fabric ID: C16A264CAAE0FC42)[0m
+[0J[0J[0;32m[1794170099.120] [1:8] [DIS] Updating services using commissioning mode 0[0m
+[0J[0J[0;32m[1794170099.122] [1:8] [DIS] CHIP minimal mDNS started advertising.[0m
+[0J[0J[0;34m[1794170099.125] [1:8] [DL] Using WiFi MAC for hostname[0m
+[0J[0J[0;32m[1794170099.125] [1:8] [DIS] Advertise operational node C16A264CAAE0FC42-000000000001B669[0m
+[0J[0J[0;34m[1794170099.126] [1:8] [DIS] Responding with _matter._tcp.local[0m
+[0J[0J[0;34m[1794170099.126] [1:8] [DIS] Responding with C16A264CAAE0FC42-000000000001B669._matter._tcp.local[0m
+[0J[0J[0;34m[1794170099.126] [1:8] [DIS] Responding with C16A264CAAE0FC42-000000000001B669._matter._tcp.local[0m
+[0J[0J[0;34m[1794170099.126] [1:8] [DIS] Responding with E6B49CAF71FD.local[0m
+[0J[0J[0;34m[1794170099.126] [1:8] [DIS] Responding with _IC16A264CAAE0FC42._sub._matter._tcp.local[0m
+[0J[0J[0;32m[1794170099.126] [1:8] [DIS] CHIP minimal mDNS configured as 'Operational device'; instance name: C16A264CAAE0FC42-000000000001B669.[0m
+[0J[0J[0;32m[1794170099.129] [1:8] [DIS] mDNS service published: _matter._tcp[0m
+[0J[0J[0;32m[1794170099.141] [1:8] [BLE] FakeBleTransport: connecting to fake BLE peer on port 3519[0m
+[0J[0J[0;32m[1794170099.141] [1:8] [BLE] FakeBleTransport: connected[0m
+[0J[0J[0;32m[1794170099.141] [1:8] [DIS] Closing all BLE connections[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [BLE] initialized local rx window, size = 0[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [IN] BleConnectionComplete: endPoint 0x56353179ea38[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [BLE] QueueTx: Set data as new mSendQueue 0x7f0d5c018ae6, type 0[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [IN] SecureSession[0x7f0d5c018170]: Allocated Type:1 LSID:16644[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [SC] Assigned local session key ID 16644[0m
+[0J[0J[0;32m[1794170099.141] [1:8] [DMG] >> to BLE | 5924409 | [Secure Channel  (0) / Password-Based Key Derivation Parameters Request (0x20) / Session = 0 / Exchange = 9727][0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG] Header Flags =[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     Message (0x04) =[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]         SourceNodeId = 005E67D93CD7B431[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     Exchange (0x01) =[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]         Initiator = true[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG] Decrypted Payload (76 bytes) =[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     data = 15300120e0e1cff1f36694e0da05f04ca267b06acd892e6d355665eae87bc260403e164d25020441240300280435052501f40125022c012503a00f24041324050c2606000106012407011818[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG] Parameters =[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     Initiator Random (32) = E0E1CFF1F36694E0DA05F04CA267B06ACD892E6D355665EAE87BC260403E164D[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     Initiator Session Id = 16644[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     Passcode Id = 0[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     hasPBKDFParameters = false[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     SED =[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]         Idle Retransmit Timeout = 500[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]         Active Retransmit Timeout = 300[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG] Additional Fields =[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]     peer_address = BLE[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [DMG]  [0m
+[0J[0J[0;32m[1794170099.141] [1:8] [EM] <<< [E:9727i S:0 M:5924409] (U) Msg TX from 005E67D93CD7B431 to 0:0000000000000000 [0000] [BLE] --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [IN] Message appended to BLE send queue[0m
+[0J[0J[0;32m[1794170099.141] [1:8] [SC] Sent PBKDF param request [II:500ms AI:300ms AT:4000ms)[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [BLE] entered HandleGattSendConfirmationReceived[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [BLE] entered HandleHandshakeConfirmationReceived[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [BLE] exiting HandleHandshakeConfirmationReceived[0m
+[0J[0J[0;32m[1794170099.141] [1:8] [BLE] subscribe complete, ep = 0x56353179ea38[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [BLE] NO SEND: receive window almost closed, and no ack to send[0m
+[0J[0J[0;34m[1794170099.141] [1:8] [BLE] NO SEND: remote receive window closed[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] +++++++++++++++++++++ entered receive[0m
+[0J[0J[0;32m[1794170099.146] [1:8] [BLE] peripheral chose BTP version 4; central expected between 4 and 4[0m
+[0J[0J[0;32m[1794170099.146] [1:8] [BLE] using BTP fragment sizes rx 244 / tx 244.[0m
+[0J[0J[0;32m[1794170099.146] [1:8] [BLE] local and remote recv window size = 5[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] decremented local rx window, new size = 4[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] entered StartSendAckTimer[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] starting new SendAckTimer[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] entered Send[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] QueueTx: Set data as new mSendQueue 0x7f0d5c01c970, type 0[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] reset local rx window on piggyback ack tx, size = 5[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] decremented remote rx window, new size = 4[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] exiting Send[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [IN] BLE EndPoint 0x56353179ea38 Connection Complete[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] entered HandleGattSendConfirmationReceived[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] entered HandleFragmentConfirmationReceived[0m
+[0J[0J[0;34m[1794170099.146] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] +++++++++++++++++++++ entered receive[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] prepared to rx post-handshake btp packet[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] BTP about to rx characteristic, state before:[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] BTP rx'd characteristic, state after:[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] decremented local rx window, new size = 4[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] got btp ack = 0[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] got ack for last outstanding fragment[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] about to adjust remote rx window; got ack num = 0, newest unacked sent seq num = 0,                 old window size = 4, max window size = 5[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] adjusted remote rx window, new size = 5[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] starting send-ack timer[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] entered StartSendAckTimer[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] starting new SendAckTimer[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [BLE] reassembled whole msg, len = 154[0m
+[0J[0J[0;32m[1794170099.161] [1:8] [DMG] << from BLE | 32989664 | [Secure Channel  (0) / Password-Based Key Derivation Parameters Response (0x21) / Session = 0 / Exchange = 9727][0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG] Header Flags =[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     Message (0x01) =[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]         DestinationNodeId = 005E67D93CD7B431[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG] Decrypted Payload (132 bytes) =[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     data = 15300120e0e1cff1f36694e0da05f04ca267b06acd892e6d355665eae87bc260403e164d3002209d111456dc6297f4acae93714e441cdb58263cf7b3612767b8c21ded719feaf32503286035042501e8033002104d6174746572456d756c61746f7230311835052501f40125022c012503a00f24041224050b2606000004012407011818[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG] Parameters =[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     Initiator Random (32) = E0E1CFF1F36694E0DA05F04CA267B06ACD892E6D355665EAE87BC260403E164D[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     Responder Random (32) = 9D111456DC6297F4ACAE93714E441CDB58263CF7B3612767B8C21DED719FEAF3[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     Responder Session Id = 24616[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     Iteration Count = 1000[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     Salt (16) = 4D6174746572456D756C61746F723031[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     SED =[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]         Idle Retransmit Timeout = 500[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]         Active Retransmit Timeout = 300[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG] Additional Fields =[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]     peer_address = BLE[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [DMG]  [0m
+[0J[0J[0;32m[1794170099.161] [1:8] [EM] >>> [E:9727i S:0 M:32989664] (U) Msg RX from 0:0000000000000000 [0000] to 005E67D93CD7B431 --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:154)[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [EM] Found matching exchange: 9727i, Delegate: 0x7f0d5c01af80[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [SC] Received PBKDF param response[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [SC] Peer assigned session ID 24616[0m
+[0J[0J[0;34m[1794170099.161] [1:8] [SC] Found MRP parameters in the message[0m
+[0J[0J[0;32m[1794170099.162] [1:8] [DMG] >> to BLE | 5924410 | [Secure Channel  (0) / Password Authenticated Session Establishment '1' (0x22) / Session = 0 / Exchange = 9727][0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG] Header Flags =[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]     Message (0x04) =[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]         SourceNodeId = 005E67D93CD7B431[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]     Exchange (0x01) =[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]         Initiator = true[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG] Decrypted Payload (70 bytes) =[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]     data = 153001410456baaf5f94585ab4199bedbec333b0f48a03cfcc5d04a639b95163dea07b3edf84d09ea7bc2ce1fe44cab2bb8817b9eba3379204981781b1dfc916c10779783118[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG] Parameters =[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]     pA (65) = 0456BAAF5F94585AB4199BEDBEC333B0F48A03CFCC5D04A639B95163DEA07B3EDF84D09EA7BC2CE1FE44CAB2BB8817B9EBA3379204981781B1DFC916C107797831[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG] Additional Fields =[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]     peer_address = BLE[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [DMG]  [0m
+[0J[0J[0;32m[1794170099.162] [1:8] [EM] <<< [E:9727i S:0 M:5924410] (U) Msg TX from 005E67D93CD7B431 to 0:0000000000000000 [0000] [BLE] --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:92)[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [BLE] entered Send[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [BLE] QueueTx: Set data as new mSendQueue 0x7f0d5c007740, type 0[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [BLE] reset local rx window on piggyback ack tx, size = 5[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [BLE] decremented remote rx window, new size = 4[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [BLE] exiting Send[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [SC] Sent spake2p msg1[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [BLE] entered HandleGattSendConfirmationReceived[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [BLE] entered HandleFragmentConfirmationReceived[0m
+[0J[0J[0;34m[1794170099.162] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] +++++++++++++++++++++ entered receive[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] prepared to rx post-handshake btp packet[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] BTP about to rx characteristic, state before:[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] BTP rx'd characteristic, state after:[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] decremented local rx window, new size = 4[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] got btp ack = 1[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] got ack for last outstanding fragment[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] about to adjust remote rx window; got ack num = 1, newest unacked sent seq num = 1,                 old window size = 4, max window size = 5[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] adjusted remote rx window, new size = 5[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] starting send-ack timer[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] entered StartSendAckTimer[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] starting new SendAckTimer[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [BLE] reassembled whole msg, len = 127[0m
+[0J[0J[0;32m[1794170112.866] [1:8] [DMG] << from BLE | 32989665 | [Secure Channel  (0) / Password Authenticated Session Establishment '2' (0x23) / Session = 0 / Exchange = 9727][0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] Header Flags =[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     Message (0x01) =[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]         DestinationNodeId = 005E67D93CD7B431[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] Decrypted Payload (105 bytes) =[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     data = 153001410467e6ba4560aba86baa32b20be359b809848100608c18e71047b8642ac507879d52d151b808ee3b62c6c1aa2948a0eedfd574a371d92d17a2f7ff8f6156cc5885300220ab4b5176198f5c45b2d6521c21e04cfdf7aa7164240ab20fe03105f188583b9a18[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] Parameters =[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     pB (65) = 0467E6BA4560ABA86BAA32B20BE359B809848100608C18E71047B8642AC507879D52D151B808EE3B62C6C1AA2948A0EEDFD574A371D92D17A2F7FF8F6156CC5885[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     cB (32) = AB4B5176198F5C45B2D6521C21E04CFDF7AA7164240AB20FE03105F188583B9A[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] Additional Fields =[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     peer_address = BLE[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]  [0m
+[0J[0J[0;32m[1794170112.866] [1:8] [EM] >>> [E:9727i S:0 M:32989665] (U) Msg RX from 0:0000000000000000 [0000] to 005E67D93CD7B431 --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:127)[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [EM] Found matching exchange: 9727i, Delegate: 0x7f0d5c01af80[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [SC] Received spake2p msg2[0m
+[0J[0J[0;32m[1794170112.866] [1:8] [DMG] >> to BLE | 5924411 | [Secure Channel  (0) / Password Authenticated Session Establishment '3' (0x24) / Session = 0 / Exchange = 9727][0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] Header Flags =[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     Message (0x04) =[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]         SourceNodeId = 005E67D93CD7B431[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     Exchange (0x01) =[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]         Initiator = true[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.866] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG] Decrypted Payload (37 bytes) =[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG]     data = 153001208a682699379f0060b81be6c45b9c9d353cbf6f8c6dd6c9c4b512d100b7dd0d1918[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG] Parameters =[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG]     cA (32) = 8A682699379F0060B81BE6C45B9C9D353CBF6F8C6DD6C9C4B512D100B7DD0D19[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG] Additional Fields =[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG]     peer_address = BLE[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [DMG]  [0m
+[0J[0J[0;32m[1794170112.867] [1:8] [EM] <<< [E:9727i S:0 M:5924411] (U) Msg TX from 005E67D93CD7B431 to 0:0000000000000000 [0000] [BLE] --- Type 0000:24 (SecureChannel:PASE_Pake3) (B:59)[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [BLE] entered Send[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [BLE] QueueTx: Set data as new mSendQueue 0x7f0d5c017d50, type 0[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [BLE] reset local rx window on piggyback ack tx, size = 5[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [BLE] decremented remote rx window, new size = 4[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [BLE] exiting Send[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [SC] Sent spake2p msg3[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [BLE] entered HandleGattSendConfirmationReceived[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [BLE] entered HandleFragmentConfirmationReceived[0m
+[0J[0J[0;34m[1794170112.867] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] +++++++++++++++++++++ entered receive[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] prepared to rx post-handshake btp packet[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] BTP about to rx characteristic, state before:[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] BTP rx'd characteristic, state after:[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] decremented local rx window, new size = 4[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] got btp ack = 2[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] got ack for last outstanding fragment[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] about to adjust remote rx window; got ack num = 2, newest unacked sent seq num = 2,                 old window size = 4, max window size = 5[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] adjusted remote rx window, new size = 5[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] starting send-ack timer[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] entered StartSendAckTimer[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] starting new SendAckTimer[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [BLE] reassembled whole msg, len = 30[0m
+[0J[0J[0;32m[1794170112.875] [1:8] [DMG] << from BLE | 32989666 | [Secure Channel  (0) / Status Report (0x40) / Session = 0 / Exchange = 9727][0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG] Header Flags =[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]     Message (0x01) =[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]         DestinationNodeId = 005E67D93CD7B431[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG] Decrypted Payload (8 bytes) =[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]     data = 0000000000000000[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG] Parameters =[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]     GeneralStatusCode = 0[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]     ProtocolId = 0[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]     ProtocolCode = 0[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG] Additional Fields =[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]     peer_address = BLE[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [DMG]  [0m
+[0J[0J[0;32m[1794170112.875] [1:8] [EM] >>> [E:9727i S:0 M:32989666] (U) Msg RX from 0:0000000000000000 [0000] to 005E67D93CD7B431 --- Type 0000:40 (SecureChannel:StatusReport) (B:30)[0m
+[0J[0J[0;34m[1794170112.875] [1:8] [EM] Found matching exchange: 9727i, Delegate: 0x7f0d5c01af80[0m
+[0J[0J[0;32m[1794170112.876] [1:8] [SC] SecureSession[0x7f0d5c018170, LSID:16644]: State change 'kEstablishing' --> 'kActive'[0m
+[0J[0J[0;34m[1794170112.876] [1:8] [IN] SecureSession[0x7f0d5c018170]: Activated - Type:1 LSID:16644[0m
+[0J[0J[0;34m[1794170112.876] [1:8] [IN] New secure session activated for device <FFFFFFFB00000000, 0>, LSID:16644 PSID:24616![0m
+[0J[0J[0;34m[1794170112.876] [1:8] [CTL] Remote device completed SPAKE2+ handshake[0m
+[0J[0J[0;32m[1794170112.876] [1:8] [TOO] Pairing Success[0m
+[0J[0J[0;32m[1794170112.876] [1:8] [TOO] PASE establishment successful[0m
+[0J[0J[0J[0;32m[1794170112.948] [1:1] [TOO] Command: basicinformation read specification-version 1 0 --timeout 20 [0m
+[0J[0J[0;32m[1794170112.948] [1:8] [TOO] Sending command to node 0x1[0m
+[0J[0J[0;32m[1794170112.948] [1:8] [TOO] Sending ReadAttribute to:[0m
+[0J[0J[0;32m[1794170112.948] [1:8] [TOO] 	cluster 0x0000_0028, attribute: 0x0000_0015, endpoint 0[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] SendReadRequest ReadClient[0x7f0d5c01e360]: Sending Read Request[0m
+[0J[0J[0;32m[1794170112.948] [1:8] [DMG] 0 data version filters provided, 0 not relevant, 0 encoded, 0 skipped due to lack of space[0m
+[0J[0J[0;32m[1794170112.948] [1:8] [DMG] >> to BLE | 87249871 | [Interaction Model  (1) / Read Request (0x02) / Session = 24616 / Exchange = 9728][0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] Header Flags =[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG]     Exchange (0x01) =[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG]         Initiator = true[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] Decrypted Payload (21 bytes) =[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG]     data = 153600172402002403282404151818290324ff0c18[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] ReadRequestMessage =[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 	AttributePathIBs =[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 	[[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 		AttributePathIB =[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 		{[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 			Endpoint = 0x0,[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 			Cluster = 0x28,[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 			Attribute = 0x0000_0015,[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 		}[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 			[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 	],[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 		[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 	isFabricFiltered = true, [0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] 	InteractionModelRevision = 12[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] },[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] Additional Fields =[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG]     peer_address = BLE[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG]  [0m
+[0J[0J[0;32m[1794170112.948] [1:8] [EM] <<< [E:9728i S:16644 M:87249871] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:02 (IM:ReadRequest) (B:51)[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [BLE] entered Send[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [BLE] QueueTx: Set data as new mSendQueue 0x7f0d5c01e7a8, type 0[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [BLE] reset local rx window on piggyback ack tx, size = 5[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [BLE] decremented remote rx window, new size = 4[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [BLE] exiting Send[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [DMG] MoveToState ReadClient[0x7f0d5c01e360]: Moving to [AwaitingIn][0m
+[0J[0J[0;34m[1794170112.948] [1:8] [BLE] entered HandleGattSendConfirmationReceived[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [BLE] entered HandleFragmentConfirmationReceived[0m
+[0J[0J[0;34m[1794170112.948] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] +++++++++++++++++++++ entered receive[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] prepared to rx post-handshake btp packet[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] BTP about to rx characteristic, state before:[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] BTP rx'd characteristic, state after:[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] decremented local rx window, new size = 4[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] got btp ack = 3[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] got ack for last outstanding fragment[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] about to adjust remote rx window; got ack num = 3, newest unacked sent seq num = 3,                 old window size = 4, max window size = 5[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] adjusted remote rx window, new size = 5[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] starting send-ack timer[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] entered StartSendAckTimer[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] starting new SendAckTimer[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [BLE] reassembled whole msg, len = 63[0m
+[0J[0J[0;32m[1794170112.959] [1:8] [DMG] << from BLE | 215246229 | [Interaction Model  (1) / Report Data (0x05) / Session = 16644 / Exchange = 9728][0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] Header Flags =[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] Decrypted Payload (33 bytes) =[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG]     data = 153601153500370024020024032824041518350124008618181818290424ff0b18[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] Additional Fields =[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG]     peer_address = BLE[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG]  [0m
+[0J[0J[0;32m[1794170112.959] [1:8] [EM] >>> [E:9728i S:16644 M:215246229] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:05 (IM:ReportData) (B:63)[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [EM] Found matching exchange: 9728i, Delegate: 0x7f0d5c01e370[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] ReportDataMessage =[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 	AttributeReportIBs =[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 	[[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 		AttributeReportIB =[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 		{[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 			AttributeStatusIB =[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 			{[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 				AttributePathIB =[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 				{[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 					Endpoint = 0x0,[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 					Cluster = 0x28,[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 					Attribute = 0x0000_0015,[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 				}[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 					[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 				StatusIB =[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 				{[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 					status = 0x86 (UNSUPPORTED_ATTRIBUTE),[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 				},[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 				[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 			},[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 			[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 		},[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 		[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 	],[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 	[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 	SuppressResponse = true, [0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] 	InteractionModelRevision = 11[0m
+[0J[0J[0;34m[1794170112.959] [1:8] [DMG] }[0m
+[0J[0J[1;31m[1794170112.959] [1:8] [TOO] Response Failure: IM Error 0x00000586: General error: 0x86 (UNSUPPORTED_ATTRIBUTE)[0m
+[0J[0J[1;31m[1794170112.959] [1:8] [TOO] Run command failure: IM Error 0x00000586: General error: 0x86 (UNSUPPORTED_ATTRIBUTE)[0m
+[0J[0J[0J[0;32m[1794170113.948] [1:1] [TOO] Command: basicinformation read software-version 1 0 --timeout 20 [0m
+[0J[0J[0;32m[1794170113.949] [1:8] [TOO] Sending command to node 0x1[0m
+[0J[0J[0;32m[1794170113.949] [1:8] [TOO] Sending ReadAttribute to:[0m
+[0J[0J[0;32m[1794170113.949] [1:8] [TOO] 	cluster 0x0000_0028, attribute: 0x0000_0009, endpoint 0[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] SendReadRequest ReadClient[0x7f0d5c01e360]: Sending Read Request[0m
+[0J[0J[0;32m[1794170113.949] [1:8] [DMG] 0 data version filters provided, 0 not relevant, 0 encoded, 0 skipped due to lack of space[0m
+[0J[0J[0;32m[1794170113.949] [1:8] [DMG] >> to BLE | 87249872 | [Interaction Model  (1) / Read Request (0x02) / Session = 24616 / Exchange = 9729][0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] Header Flags =[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG]     Exchange (0x01) =[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG]         Initiator = true[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] Decrypted Payload (21 bytes) =[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG]     data = 153600172402002403282404091818290324ff0c18[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] ReadRequestMessage =[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 	AttributePathIBs =[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 	[[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 		AttributePathIB =[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 		{[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 			Endpoint = 0x0,[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 			Cluster = 0x28,[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 			Attribute = 0x0000_0009,[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 		}[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 			[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 	],[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 		[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 	isFabricFiltered = true, [0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] 	InteractionModelRevision = 12[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] },[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] Additional Fields =[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG]     peer_address = BLE[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG]  [0m
+[0J[0J[0;32m[1794170113.949] [1:8] [EM] <<< [E:9729i S:16644 M:87249872] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:02 (IM:ReadRequest) (B:51)[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [BLE] entered Send[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [BLE] QueueTx: Set data as new mSendQueue 0x7f0d5c01f958, type 0[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [BLE] reset local rx window on piggyback ack tx, size = 5[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [BLE] decremented remote rx window, new size = 4[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [BLE] exiting Send[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [DMG] MoveToState ReadClient[0x7f0d5c01e360]: Moving to [AwaitingIn][0m
+[0J[0J[0;34m[1794170113.949] [1:8] [BLE] entered HandleGattSendConfirmationReceived[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [BLE] entered HandleFragmentConfirmationReceived[0m
+[0J[0J[0;34m[1794170113.949] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] +++++++++++++++++++++ entered receive[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] prepared to rx post-handshake btp packet[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] BTP about to rx characteristic, state before:[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] BTP rx'd characteristic, state after:[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] decremented local rx window, new size = 4[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] got btp ack = 4[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] got ack for last outstanding fragment[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] about to adjust remote rx window; got ack num = 4, newest unacked sent seq num = 4,                 old window size = 4, max window size = 5[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] adjusted remote rx window, new size = 5[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] starting send-ack timer[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] entered StartSendAckTimer[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] starting new SendAckTimer[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [BLE] reassembled whole msg, len = 66[0m
+[0J[0J[0;32m[1794170113.963] [1:8] [DMG] << from BLE | 215246230 | [Interaction Model  (1) / Report Data (0x05) / Session = 16644 / Exchange = 9729][0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] Header Flags =[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] Decrypted Payload (36 bytes) =[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG]     data = 1536011535012600009845fd370124020024032824040918240202181818290424ff0b18[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] Additional Fields =[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG]     peer_address = BLE[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG]  [0m
+[0J[0J[0;32m[1794170113.963] [1:8] [EM] >>> [E:9729i S:16644 M:215246230] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:05 (IM:ReportData) (B:66)[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [EM] Found matching exchange: 9729i, Delegate: 0x7f0d5c01e370[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] ReportDataMessage =[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 	AttributeReportIBs =[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 	[[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 		AttributeReportIB =[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 		{[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 			AttributeDataIB =[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 			{[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 				DataVersion = 0xfd459800,[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 				AttributePathIB =[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 				{[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 					Endpoint = 0x0,[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 					Cluster = 0x28,[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 					Attribute = 0x0000_0009,[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 				}[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 					[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 				Data = 2 (unsigned), [0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 			},[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 			[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 		},[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 		[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 	],[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 	[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 	SuppressResponse = true, [0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] 	InteractionModelRevision = 11[0m
+[0J[0J[0;34m[1794170113.963] [1:8] [DMG] }[0m
+[0J[0J[0;32m[1794170113.963] [1:8] [TOO] Endpoint: 0 Cluster: 0x0000_0028 Attribute 0x0000_0009 DataVersion: 4249196544[0m
+[0J[0J[0;32m[1794170113.963] [1:8] [TOO]   SoftwareVersion: 2[0m
+[0J[0J[0J[0;32m[1794170114.949] [1:1] [TOO] Command: basicinformation read cluster-revision 1 0 --timeout 20 [0m
+[0J[0J[0;32m[1794170114.950] [1:8] [TOO] Sending command to node 0x1[0m
+[0J[0J[0;32m[1794170114.950] [1:8] [TOO] Sending ReadAttribute to:[0m
+[0J[0J[0;32m[1794170114.950] [1:8] [TOO] 	cluster 0x0000_0028, attribute: 0x0000_FFFD, endpoint 0[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] SendReadRequest ReadClient[0x7f0d5c01e360]: Sending Read Request[0m
+[0J[0J[0;32m[1794170114.950] [1:8] [DMG] 0 data version filters provided, 0 not relevant, 0 encoded, 0 skipped due to lack of space[0m
+[0J[0J[0;32m[1794170114.950] [1:8] [DMG] >> to BLE | 87249873 | [Interaction Model  (1) / Read Request (0x02) / Session = 24616 / Exchange = 9730][0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] Header Flags =[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG]     Exchange (0x01) =[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG]     {[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG]         Initiator = true[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG]     }[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] Decrypted Payload (22 bytes) =[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG]     data = 153600172402002403282504fdff1818290324ff0c18[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] ReadRequestMessage =[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 	AttributePathIBs =[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 	[[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 		AttributePathIB =[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 		{[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 			Endpoint = 0x0,[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 			Cluster = 0x28,[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 			Attribute = 0x0000_FFFD,[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 		}[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 			[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 	],[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 		[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 	isFabricFiltered = true, [0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] 	InteractionModelRevision = 12[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] },[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] Additional Fields =[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG]     peer_address = BLE[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG]  [0m
+[0J[0J[0;32m[1794170114.950] [1:8] [EM] <<< [E:9730i S:16644 M:87249873] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:02 (IM:ReadRequest) (B:52)[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [BLE] entered Send[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [BLE] QueueTx: Set data as new mSendQueue 0x7f0d5c020448, type 0[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [BLE] reset local rx window on piggyback ack tx, size = 5[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [BLE] decremented remote rx window, new size = 4[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [BLE] exiting Send[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [DMG] MoveToState ReadClient[0x7f0d5c01e360]: Moving to [AwaitingIn][0m
+[0J[0J[0;34m[1794170114.950] [1:8] [BLE] entered HandleGattSendConfirmationReceived[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [BLE] entered HandleFragmentConfirmationReceived[0m
+[0J[0J[0;34m[1794170114.950] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] +++++++++++++++++++++ entered receive[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] prepared to rx post-handshake btp packet[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] BTP about to rx characteristic, state before:[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] BTP rx'd characteristic, state after:[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] decremented local rx window, new size = 4[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] got btp ack = 5[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] got ack for last outstanding fragment[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] about to adjust remote rx window; got ack num = 5, newest unacked sent seq num = 5,                 old window size = 4, max window size = 5[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] adjusted remote rx window, new size = 5[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] entered DriveSending[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] starting send-ack timer[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] entered StartSendAckTimer[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] starting new SendAckTimer[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [BLE] reassembled whole msg, len = 67[0m
+[0J[0J[0;32m[1794170114.961] [1:8] [DMG] << from BLE | 215246231 | [Interaction Model  (1) / Report Data (0x05) / Session = 16644 / Exchange = 9730][0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] Header Flags =[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] Decrypted Payload (37 bytes) =[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG]     data = 1536011535012600009845fd37012402002403282504fdff18240201181818290424ff0b18[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG]  [0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] Additional Fields =[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG]     peer_address = BLE[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] }[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG]  [0m
+[0J[0J[0;32m[1794170114.961] [1:8] [EM] >>> [E:9730i S:16644 M:215246231] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:05 (IM:ReportData) (B:67)[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [EM] Found matching exchange: 9730i, Delegate: 0x7f0d5c01e370[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] ReportDataMessage =[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] {[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 	AttributeReportIBs =[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 	[[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 		AttributeReportIB =[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 		{[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 			AttributeDataIB =[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 			{[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 				DataVersion = 0xfd459800,[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 				AttributePathIB =[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 				{[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 					Endpoint = 0x0,[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 					Cluster = 0x28,[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 					Attribute = 0x0000_FFFD,[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 				}[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 					[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 				Data = 1 (unsigned), [0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 			},[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 			[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 		},[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 		[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 	],[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 	[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 	SuppressResponse = true, [0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] 	InteractionModelRevision = 11[0m
+[0J[0J[0;34m[1794170114.961] [1:8] [DMG] }[0m
+[0J[0J[0;32m[1794170114.961] [1:8] [TOO] Endpoint: 0 Cluster: 0x0000_0028 Attribute 0x0000_FFFD DataVersion: 4249196544[0m
+[0J[0J[0;32m[1794170114.961] [1:8] [TOO]   ClusterRevision: 1[0m
+[0J[0J[0;34m[1794170115.951] [1:1] [CTL] Shutting down the commissioner[0m
+[0J[0J[0;32m[1794170115.951] [1:1] [DIS] Closing all BLE connections[0m
+[0J[0J[0;34m[1794170115.951] [1:1] [IN] Clearing BLE pending packets.[0m
+[0J[0J[0;32m[1794170115.951] [1:1] [BLE] Auto-closing end point's BLE connection.[0m
+[0J[0J[0;34m[1794170115.951] [1:1] [IN] SecureSession[0x7f0d5c018170]: MarkForEviction Type:1 LSID:16644[0m
+[0J[0J[0;32m[1794170115.951] [1:1] [SC] SecureSession[0x7f0d5c018170, LSID:16644]: State change 'kActive' --> 'kPendingEviction'[0m
+[0J[0J[0;34m[1794170115.951] [1:1] [IN] SecureSession[0x7f0d5c018170]: Released - Type:1 LSID:16644[0m
+[0J[0J[0;34m[1794170115.951] [1:1] [CTL] Shutting down the controller[0m
+[0J[0J[0;34m[1794170115.951] [1:1] [IN] Expiring all sessions for fabric 0x1!![0m
+[0J[0J[0;32m[1794170115.951] [1:1] [FP] Forgetting fabric 0x1[0m
+[0J[0J[0;32m[1794170115.951] [1:1] [TS] Pending Last Known Good Time: 2023-10-14T01:16:48[0m
+[0J[0J[0;32m[1794170115.951] [1:1] [TS] Previous Last Known Good Time: 2023-10-14T01:16:48[0m
+[0J[0J[0;32m[1794170115.951] [1:1] [TS] Reverted Last Known Good Time to previous value[0m
+[0J[0J[0;34m[1794170115.951] [1:1] [CTL] Shutting down the commissioner[0m
+[0J[0J[0;34m[1794170115.951] [1:1] [CTL] Shutting down the controller[0m
+[0J[0J[0;34m[1794170115.951] [1:1] [CTL] Shutting down the System State, this will teardown the CHIP Stack[0m
+[0J[0J[0;34m[1794170115.956] [1:1] [IN] SecureSession[0x563543c47ce0]: Released - Type:2 LSID:16643[0m
+[0J[0J[0;34m[1794170115.956] [1:1] [DMG] All ReadHandler-s are clean, clear GlobalDirtySet[0m
+[0J[0J[0;32m[1794170115.956] [1:1] [IM] Shutting down data model provider 0x563531785920[0m
+[0J[0J[0;32m[1794170115.956] [1:1] [DMG] CodegenDataModelProvider::Shutdown() complete[0m
+[0J[0J[0;32m[1794170115.956] [1:1] [FP] Shutting down FabricTable[0m
+[0J[0J[0;32m[1794170115.956] [1:1] [TS] Pending Last Known Good Time: 2023-10-14T01:16:48[0m
+[0J[0J[0;32m[1794170115.956] [1:1] [TS] Previous Last Known Good Time: 2023-10-14T01:16:48[0m
+[0J[0J[0;32m[1794170115.956] [1:1] [TS] Reverted Last Known Good Time to previous value[0m
+[0J[0J[0;34m[1794170115.967] [1:1] [DL] Wrote settings to /tmp/chip_counters.ini[0m
+[0J[0J[0;32m[1794170115.967] [1:1] [DL] NVS set: chip-counters/total-operational-hours = 0 (0x0)[0m
+[0J[0J[0;32m[1794170115.967] [1:1] [DL] Inet Layer shutdown[0m
+[0J[0J[0;32m[1794170115.967] [1:1] [DL] BLE Layer shutdown[0m
+[0J[0J[0;32m[1794170115.967] [1:1] [DL] WiFi-PAF Layer shutdown[0m
+[0J[0J[0;32m[1794170115.967] [1:1] [DL] System Layer shutdown[0m
+[0J
